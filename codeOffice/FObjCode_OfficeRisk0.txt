@@ -1,0 +1,11 @@
+load VAL_ACTIVEFUNDS
+loadI 50000
+gt
+jumpC 5
+act cellBuy CELL_CIV
+load VAL_ACTIVEFUNDS
+loadI -10000
+lt
+jumpC 10
+act cellSell CELL_CIV
+nop

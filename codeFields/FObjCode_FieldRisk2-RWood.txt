@@ -1,0 +1,16 @@
+load VAL_ACTIVELOCATIONS
+loadI 1
+gt
+jumpC 5
+act objProduce OBJ_MATPRIM_WOOD
+load VAL_ACTIVEFUNDS
+loadI 5000
+gt
+jumpC 10
+act cellGainRent CELL_FIELD
+load VAL_N_OBJECT OBJ_MATPRIM_WOOD
+loadI 1
+gt
+jumpC 15
+act objSell OBJ_MATPRIM_WOOD
+nop

@@ -1,0 +1,11 @@
+load VAL_ACTIVELOCATIONS
+loadI 1
+gt
+jumpC 5
+act objProduce OBJ_MATPRIM_VEG
+load VAL_ACTIVEFUNDS
+loadI 50000
+gt
+jumpC 11
+act cellBuy
+nop

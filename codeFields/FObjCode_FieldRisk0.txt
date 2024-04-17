@@ -1,0 +1,11 @@
+load VAL_NONRENTEDOWNED
+loadI 1
+gt
+jumpC 5
+act cellGiveRent
+load VAL_ACTIVEFUNDS
+loadI 50000
+gt
+jumpC 10
+act cellBuy CELL_FIELD
+nop

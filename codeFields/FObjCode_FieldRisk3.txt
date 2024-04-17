@@ -1,0 +1,6 @@
+load VAL_ACTIVELOCATIONS
+loadI 1
+gt
+jumpC 5
+act objProduce OBJ_MATPRIM_VEG
+nop

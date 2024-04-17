@@ -1,0 +1,16 @@
+load VAL_ACTIVELOCATIONS
+loadI 1
+gt
+jumpC 5
+act objProduce OBJ_PROCC_JAM
+load VAL_N_OBJECT OBJ_PROCC_JAM
+loadI 1
+gt
+jumpC 11
+act objSell OBJ_PROCC_JAM
+load VAL_ACTIVEFUNDS
+loadI 50000
+gt
+jumpC 15
+act cellBuy CELL_FACT
+nop

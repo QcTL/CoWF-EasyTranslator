@@ -1,0 +1,16 @@
+load VAL_ACTIVEFUNDS
+loadI 50000
+gt
+jumpC 5
+act cellBuy CELL_CIV
+load VAL_ACTIVELOCATIONS
+loadI 1
+gt
+jumpC 10
+act objProduce OBJ_SOFTWARE
+load VAL_N_OBJECT OBJ_SOFTWARE
+loadI 1
+gt
+jumpC 15
+act objSell OBJ_SOFTWARE
+nop

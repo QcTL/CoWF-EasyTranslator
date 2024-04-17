@@ -1,0 +1,11 @@
+load VAL_ACTIVELOCATIONS
+loadI 1
+gt
+jumpC 5
+act objProduce OBJ_PROCC_TABLE
+load VAL_N_OBJECT OBJ_PROCC_TABLE
+loadI 4
+gt
+jumpC 11
+act objSell OBJ_PROCC_TABLE
+nop
