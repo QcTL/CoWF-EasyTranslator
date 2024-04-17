@@ -2,7 +2,7 @@ load VAL_NONRENTEDOWNED
 loadI 1
 gt
 jumpC 5
-act cellGiveRent
+act cellGiveRent CELL_FIELD
 load VAL_ACTIVEFUNDS
 loadI 50000
 gt

@@ -2,7 +2,7 @@ load VAL_ACTIVEFUNDS
 loadI 50000
 gt
 jumpC 5
-act cellBuy CELL_CIV
+act cellBuy CELL_CIV_M1
 load VAL_ACTIVELOCATIONS
 loadI 1
 gt
