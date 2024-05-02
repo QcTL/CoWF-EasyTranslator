@@ -17,6 +17,17 @@ This document provides an overview of the custom programming language developed 
 - `act`: Executes an action based on certain conditions.
 - `nop`: No operation; does nothing.
 
+| Command | Elem1                | Elem2               |
+|---------|----------------------|---------------------|
+| jump    | int:lineJump         | -                   |
+| jumpC   | int:lineJump         | -                   |
+| gt      | -                    | -                   |
+| lt      | -                    | -                   |
+| load    | str:LoadValues       | -                   |
+| loadI   | int:Value import     | -                   |
+| act     | str:ActValues        | (opt) str:TypeCell  |
+| nop     | -                    | -                   |
+
 ### Storage
 
 The compiler that references this language only have two available variable storage positions, acting like a pile, where if you load two elements,
